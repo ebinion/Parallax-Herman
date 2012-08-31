@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+html{
+  font-size: 62.5%;
+}
+body {
+  color: #444;
+  line-height: 1;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  min-width: 960px;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1{
+  font-size: 3.2rem;
+  font-weight: 100;
+  line-height: .5;
+}
+h2, h3{
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin: 1em 0 .25em;
+}
+h3{
+  font-size: 1.6rem;
+}
+strong{
+  font-weight: 700;
+}
+p{
+   margin: 1em 0;
+}
+
+.container{
+  margin: 0 auto;
+  width: 600px;
+}
+
+.container:before, .container:after{
+  display: table;
+  content: '';
+}
+.container:after{
+  clear: both;
+}
+/* HEADER AREA */
+article header{
+  background: url(../imgs/herman-wallpaper.jpg) no-repeat 50% bottom;
+  background-size: 100% auto;
+  height: 600px;
+  position: relative;
+  width: 100%;
+  top: 0;
+  z-index: -9999;
+}
+
+article header h1{
+  color: #fff;
+  font-size: 4.6rem;
+  line-height: .8;
+  margin-top: 200px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+article header h1 strong{
+  font-size: 2.6em;
+  left: -7px;
+  position: relative;
+}
+article header p{
+  background: #d06;
+  background: rgba(220, 0, 110, .8);
+  color: #eee;
+  display: inline-block;
+  font-family: "Courier New", mono-space;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-top: 5px;
+  padding: 14px 5px 0 135px; 
+  text-transform: lowercase;
+}
+article section{
+  background-color: #f1f1f1;
+  border-top: 1px solid #fff;
+  box-shadow: 0 -20px 60px rgba(0,0,0,.3);
+  padding: 40px 0;
+  position: relative;
+}
